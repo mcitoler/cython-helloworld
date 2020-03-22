@@ -3,5 +3,6 @@ cdef class Shrubbery:
         self.width = w
         self.length = l
 
+
 def standard_shrubbery():
     return Shrubbery(3, 7)

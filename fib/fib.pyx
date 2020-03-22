@@ -1,5 +1,5 @@
 cdef extern from "cfib.h":
-    double cfib(int n)
+    long cfib(int n)
 
 def fib(n):
     """Returns the nth Fibonacci number."""

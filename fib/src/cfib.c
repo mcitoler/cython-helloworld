@@ -1,8 +1,8 @@
 #include <cfib.h>
 
-double cfib(int n){
+long cfib(int n){
     int i;
-    double a=0.0, b=1.0, tmp;
+    long a=0, b=1, tmp=0;
     for (i=0; i<n; ++i) {
         tmp = a; a = a + b; b = tmp;
     }
