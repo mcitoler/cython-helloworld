@@ -21,4 +21,4 @@ ext_modules = [
     ),
 ]
 
-setup(ext_modules=ext_modules)
+setup(setup_requires=["cython"], ext_modules=ext_modules)
