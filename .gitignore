@@ -2,5 +2,10 @@
 build
 dist
 *.so
+*.c
+*.cpp
 *.egg-info
 *.egg
+## Include source files
+!**/src/*.c
+!**/src/*.cpp
