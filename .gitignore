@@ -6,6 +6,12 @@ dist
 *.cpp
 *.egg-info
 *.egg
+*.html
 ## Include source files
 !**/src/*.c
 !**/src/*.cpp
+
+
+# Tools
+.idea
+.mypy_cache
